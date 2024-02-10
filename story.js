@@ -12,7 +12,7 @@ var config = {
         {
             id: 'Ch1',
             title: 'Ontario Wildfires',
-            image: '/Users/annamagistrale/Desktop/GEOM 4005/Course Material/2/Assignement1_Template/images/Ch1.jpg',
+            image: 'images/Ch1.jpg',
             description: '<h1>Overview<h1><br><p>Wildfires are destructive events that can cause destruction to large areas of land. In Ontario, wildfire season ranges from April 1st to October 31st. There are many factors that dictate how bad a wildfire season is such as dry conditions are. This story map will outline Ontario\'s wildfire seasons in the years 2020 - 2022. Areas that were burned in 2020 appear in yellow, those burned in 2021 appear in orange, and those burned in 2022 appear in red. <br> To learn more about wildfires, check out this video:<br> <p><iframe width="375" height="315" src="https://www.youtube.com/embed/5hghT1W33cY?si=H_-DRPDEzCTrbC-H" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
             location: {
                 center: [-90.81411, 49.85722],
@@ -36,7 +36,7 @@ var config = {
         {
             id: '2020',
             title: 'The 2020 Season',
-            image: '/Users/annamagistrale/Desktop/GEOM 4005/Course Material/2/Assignement1_Template/images/2020.png',
+            image: 'images/2020.png',
             description: '<h2>2020 Fire Season<h2><br><p>2020 was a fairly average wildfire season with a total of 608 wildland fires affecting a total of 15,460 hectares of land. The largest area burned was 5931.54 hectares. See the table below to find a summary of the number of fires in Ontario for the 2020 fire season:<p><br><style>table, th, td{border:1px solid white;}</style><table><tr><th>Province</th><th>Natural Fires</th><th>Human Caused Fires</th><th>Total Fires</th></tr><tr><td>ON</td><td>367</td><td>241</td><td>608</td></tr></table><br><p>How does Ontario\'s number of wildfires compare to the rest of Canada in 2020?<p><br><canvas id="Chart2020" width="400" height="400"></canvas> ',
             location: {
                 center: [-88.58560, 51.44565],
@@ -56,7 +56,7 @@ var config = {
         {
             id: '2021',
             title: 'The 2021 Season',
-            image: '/Users/annamagistrale/Desktop/GEOM 4005/Course Material/2/Assignement1_Template/images/2021.png',
+            image: 'images/2021.png',
             description: '<h2>2021 Fire Season<h2><br><p>2021 saw one of the worst fire seasons for Ontario, especially in the northwestern part of the province. 496 out-of-province firefighting personnel assisted with these fires. A total of 793,325 hectares burned which set a new record for the province. The largest area burned can be seen in orange on the map with 225,937.19 hectares burned. See the table below to find a summary of the number of Ontario\'s 2021 forest fires:<p><br><style>table, th, td{border:1px solid white;}</style><table><tr><th>Province</th><th>Natural Fires</th><th>Human Caused Fires</th><th>Total Fires</th></tr><tr><td>ON</td><td>933</td><td>265</td><td>1198</td></tr></table><br><p>How does Ontario\'s number of wildfires compare to the rest of Canada for 2021?<p><br><canvas id="Chart2021" width="400" height="400"></canvas> ', 
             location: {
                 center: [-95.08768, 50.65928],
@@ -76,7 +76,7 @@ var config = {
         {
             id: '2022',
             title: 'The 2022 Season',
-            image: '/Users/annamagistrale/Desktop/GEOM 4005/Course Material/2/Assignement1_Template/images/2022.webp',
+            image: 'images/2022.webp',
             description: '<h2>2022 Fire Season<h2><br><p>2022 saw a much slower fire season than 2021. It was one of the five slowest fire seasons for Ontario. The total burn area was 2,560 hectares and the largest burned area was 1,230.09 hectares. See the table below to find a summary of the number of wildfires for Ontario\'s 2022 fire season:<p><br><style>table, th, td{border:1px solid white;}</style><table><tr><th>Province</th><th>Natural Fires</th><th>Human Caused Fires</th><th>Total Fires</th></tr><tr><td>ON</td><td>88</td><td>187</td><td>275</td></tr></table><br><p>How does Ontario\'s number of wildfires compare to the rest of Canada in 2022?<p><br><canvas id="Chart2022" width="400" height="400"></canvas> ',
             location: {
                 center: [-81.391,47.482],
